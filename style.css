@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(44, 104, 92, 0.495);
+  background-image: url(img/dolar.jpg);
+  background-size: cover;
+ 
+}
+
+h1 {
+  color: rgb(247, 213, 169);
+  text-shadow: 2px 2px 1px  rgba(0, 0, 0, 0.466);
+  font-size: 2em;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  background-color:rgba(1, 2, 2, 0.637);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.converted-value {
+  margin-top: 10px;
+  color: #007350;
+  background-color: #e9e9e9eb;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 10px;
+  word-wrap: break-word;
+}
+
+.conversion-precision {
+  color: #007350;
+  font-size: 1.5em;
+  font-weight: bold;
+  width: auto;
+  background-color: #e9e9e9eb;
+  border-radius: 10px;
+  padding: 5px;
+  word-wrap: break-word;
+
+}
+
